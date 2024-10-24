@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'  # Ensure this is a stable version
+          node-version: '20.12.1'  # Ensure this is a stable version
 
       - name: Install dependencies 🔧
         run: npm ci  # Install dependencies
